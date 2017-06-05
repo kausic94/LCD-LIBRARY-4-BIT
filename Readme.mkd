@@ -1,3 +1,7 @@
+<center><b><h1>LCD-LIBRARAY-4-BIT</h1></b></center>
+
+---
+
 This Project contains the same LCD library as in the other repository. The only difference being this library enables you to operate in the 4 bit mode. There are three code files.
 
 The kau_lcd4.c and kau_lcd4.h are the library files. It has the functions for writing a message, writing numbers both integers and floating point. In addition to that it also has other functions for animating the texts.
