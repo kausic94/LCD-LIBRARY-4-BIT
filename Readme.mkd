@@ -1,0 +1,11 @@
+This Project contains the same LCD library as in the other repository. The only difference being this library enables you to operate in the 4 bit mode. There are three code files.
+
+The kau_lcd4.c and kau_lcd4.h are the library files. It has the functions for writing a message, writing numbers both integers and floating point. In addition to that it also has other functions for animating the texts.
+
+    Functionality       Port        pin
+    enable              PortC       0
+    RS                  PortC       1
+    R/W                 PortC       2
+    Data                PortD       4-7
+    
+The 4 bit mode should be slightly slower than 4 bit mode. But it is negligible and you won't see any perceivable difference.
